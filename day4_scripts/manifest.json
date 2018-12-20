@@ -16,7 +16,15 @@
       "log_type": "None",
       "enabled": true,
       "handler": "calling_bird_http"
-    }
-   
+    },
+    {
+      "name":"UpdateClient",
+      "description":"Called when a client is updated",
+      "type":"Clients",
+      "actions": ["after_update"],
+      "log_type": "Tail",
+      "enabled": true,
+      "handler": "update_client"
+    }   
   ]
 }
