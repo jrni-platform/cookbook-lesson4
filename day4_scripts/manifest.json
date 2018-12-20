@@ -1,0 +1,22 @@
+{
+  "version": "0.1",
+  "name": "Day4Scripts",
+  "description": "Scripts for Day 4 of Lessons",
+  "platform": "nodejs8.10",
+  "created_at": "2018-10-24",
+  "updated_at": "2018-10-24",
+  "enabled": true,
+  "scripts":
+  [
+    {
+      "name":"Present",
+      "description":"tell me what I'm getting on day 4",
+      "type":"PublicScript",
+      "actions": ["Get"],
+      "log_type": "None",
+      "enabled": true,
+      "handler": "calling_bird_http"
+    }
+   
+  ]
+}
