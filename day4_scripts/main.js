@@ -27,6 +27,6 @@ exports.update_client = function(data, callback){
 
   console.log("Got a client update for:", client.first_name, " ", client.last_name)
 
-  callback(null, response);
+  callback(null, {});
 }
 
