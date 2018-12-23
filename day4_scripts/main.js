@@ -26,10 +26,7 @@ exports.update_client = function(data, callback){
   const client = data.client;
 
   console.log("Got a client update for:", client.first_name, " ", client.last_name)
-  client.getAnswer('rings').then( (rings) => {
-    console.log(client.name, " now has ", rings, " rings");
-  })
-  
+
   callback(null, {});
 }
 
